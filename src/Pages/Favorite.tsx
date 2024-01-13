@@ -95,9 +95,9 @@ const Favorite: FC = () => {
           <div className="fixed inset-0 overflow-y-auto z-50  flex items-center justify-center">
             <div className="fixed inset-0 bg-black opacity-50"></div>
             <div className="relative flex flex-col h-auto sm:h-auto text-pretty lg:h-[65%] justify-center items-center bg-white sm:p-6 p-3 rounded-lg lg:w-1/2 w-9/12">
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-5 w-full h-[80%] sm:h-full overflow-hidden">
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-5 w-full h-auto sm:h-full overflow-hidden">
                 <div className="h-full">
-                  <img src={poster + nilaiOutput.selectedMovie.poster_path} className="h-[100%]  rounded-md sm:h-[80%] w-full" height={30} alt="" />
+                  <img src={poster + nilaiOutput.selectedMovie.poster_path} className="rounded-md h-[20vh] w-[70vw] sm:h-[80%] sm:w-full" height={30} alt="" />
                 </div>
                 <div className="flex-col flex sm:w-3/5 w-full items-start h-full justify-start gap-3">
                   <h2 className={`sm:text-xl text-base font-bold  text-white text-center py-4 w-full rounded-md ${!darkMode ? `bg-teal-600` : `bg-black`}`}>{nilaiOutput.selectedMovie.title}</h2>
