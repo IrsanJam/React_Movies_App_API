@@ -9,13 +9,17 @@
 ## 📑 About the Project
 Movies App adalah aplikasi yang dirancang untuk memudahkan pengguna dalam mencari dan menambah daftar Favorit Film. Aplikasi ini mempunyai fitur login, logout, darkmode, fitur Pencarian film, detail film, tambah ke favorit, juga hapus favorit 
 
-
 ## 🌐 Deployment
  - [VERCEL](https://movie-irsan-app.vercel.app/)
+ 
+Note:
+Login bisa menggunakan :
+- Username : irsan
+- Password : admin1
 
 ## 🔮 Features
 - 👤Autentikasi dan Manajemen User
-    - Login User
+    - Login Admin
 - 🏠Manajemen Film
     - Recomendasi Film
     - Mencari Film
