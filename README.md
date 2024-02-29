@@ -1,30 +1,40 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ # MOVIE APP
+  <h1>Welcome to Movies App</h1>
 
-## Expanding the ESLint configuration
+<!-- PROJECT LOGO -->
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📑 About the Project
+Movies App adalah aplikasi yang dirancang untuk memudahkan pengguna dalam mencari dan menambah daftar Favorit Film. Aplikasi ini mempunyai fitur login, logout, darkmode, fitur Pencarian film, detail film, tambah ke favorit, juga hapus favorit 
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## 🌐 Deployment
+ - [VERCEL](https://movie-irsan-app.vercel.app/)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 🔮 Features
+- 👤Autentikasi dan Manajemen User
+    - Login User
+- 🏠Manajemen Film
+    - Recomendasi Film
+    - Mencari Film
+    - Detail Film
+    - Menambahkan Ke Favorit
+    - Menghapus Film dari Favorit
+- 📅Integrasi
+    - Menggunakan Mock API
+
+
+
+
+
+![Tech Stack](https://github-readme-tech-stack.vercel.app/api/cards?title=Tech+Stack&fontSize=20&lineCount=1&theme=facebook&width=1200&bg=%231a191e&badge=%232a292e&border=%232a292e&titleColor=%231771e6&line1=react%2Creact%2C00c6ff%3Btypescript%2Ctypescript%2C0083ff%3Btailwindcss%2Ctailwindcss%2C0096ff%3Breact+router+dom%2Creact+router+dom%2Ca3c98b%3Baxios%2Caxios%2C66266e%3Bprettier%2Cprettier%2C2930a7)
+
+
+ 
+ 
+
+## 🤖 Author
+- **Irsan Jamaludin** - FE 17 ALTA
+  - [Github](https://github.com/IrsanJam)
